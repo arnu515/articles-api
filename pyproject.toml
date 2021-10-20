@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "code"
+version = "0.1.0"
+description = ""
+authors = ["arnu515 <arnu5152@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "^2.0.2"
+PyJWT = "^2.3.0"
+prisma = "^0.2.2"
+bcrypt = "^3.2.0"
+donttrust = "^0.1.4"
+python-dotenv = "^0.19.1"
+Flask-Cors = "^3.0.10"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
